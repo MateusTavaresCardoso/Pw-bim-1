@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(77, 8, 206);
+    
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.container h2{
+    position: absolute;
+    color: white;
+    left: 10px;
+    top: 70px;
+}
+
+.container h1{
+    position: absolute;
+    color: white;
+    left: 150px;
+    top: 200px;
+}
+.container h4{
+    position: absolute;
+    color: white;
+    left: 160px;
+    top: 250px;
+}
+.container p{
+    position: absolute;
+    left: 10px;
+    top: 550px;
+    color: white;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header p{
+    color: #b4aeae;
+}
+
+.form-header h1{
+    color: #2398f8;
+}
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+
+.login-button button {
+    border: none;
+    background-color: #2398f8;
+    padding: 0.8rem 7.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.login-button button:hover {
+    background-color: #3183eef1;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.input-group {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+
+.btn-form{
+    border: none;
+    background-color: white;
+    color: #4faffd;
+    cursor: pointer;
+}
+.btn-form:hover{
+    color: #3123f8;
+}
+.btn-form :focus-visible{
+    outline: 1px solid  #4faffd;
+}
+
+small{
+    width: 100%;
+    float: flex;
+    color: #b4aeae;
+}
+
+label{
+    color: #b4aeae;
+}
+
